@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+ 
+}
+     hr {
+        height: 5px;
+      }
+	td{
+		color: white;
+	}
+	h2{
+		color: #ff4d4d;
+	}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>UDAYGIRI CAVES</h1>
+<hr color="#ff4d4d" width="100%">
+<table>
+		<tr><td><img src="ud.jpg"</td><td bgcolor="#cc0000" width="50%" style=font-size:22px style="color:white"> <ul>
+		<li>Udayagiri caves contain iconography of Jainism 
+		<li>Ancient monumental relief sculpture of Parshvanatha in his incarnation.
+		<li>Udayagiri Caves are set in two low hills near Betwa River, on the banks of its tributary Bes River.
+		<li>Major centre of Jain culture
+		<li>The site is also referred to as Visnupadagiri, as in inscriptions at the site
+		</ul></td></tr>
+	</table>
+
+<div class="content">
+   <h2>ABOUT</h2>
+   <hr>
+  <img src="ud.jpg" alt="Bear" style="width:100%">
+	<p>Udayagiri caves contain iconography of Jainism .[6][5] They are notable for the ancient monumental relief sculpture of Parshvanatha in his incarnation.[3] The site has important inscriptions of the Gupta dynasty belonging to the reigns of Chandragupta II (c. 375-415) and Kumaragupta I (c. 415-55).[7] In addition to these, Udayagiri has a series of rock-shelters and petroglyphs, ruined buildings, inscriptions, water systems, fortifications and habitation mounds, all of which remain a subject of continuing archaeological studies. The Udayagiri Caves complex consists of twenty caves, of which one is dedicated to Hinduism and all others to Jainism.[4] The Jain cave is notable for one of the oldest known Jaina inscriptions from 401 CE, while the Hindu caves feature inscriptions from 425 CE.</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

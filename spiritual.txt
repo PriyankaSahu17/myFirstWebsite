@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>WILDLIFE</h1>
+<hr>
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="panna.jpeg" alt="Mountains" style="width:100%">
+      <h3>DAZZLING PANNA</h3>
+      <p>While many of us are obsessed with tiger sightings, Panna National Park boasts of seven different species of vultures. Panna tiger reserve is an ideal place to spot these in their natural habitat. You will also come across a variety of flira and fauna here.
+
+Panna has the amazing superpower to, both, calm you and thrill you! The royal past of this destination dates back to mid of 17th Centuary AD, when it became the capital of Maharaja Chhatrasal's kingdom.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="REWA.jpeg" alt="Lights" style="width:100%">
+      <h3>ENCHANTING REWA</h3>
+      <p>Blessed with natural beauty, the city of Rewa is situated on the north-western side of Madhya Pradesh. The city has frolicking streams gushing from the mountains and lush green forests.The most visited place in Rewa is a nearby village, Mukundpur,District Satna which is best known for the 'White Tiger Zoo & Safari'. It was home to Mohan - the world renowned white tiger. Watching the surreal white tiger strolling in the wild is the moment you can not miss.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="bhandhav.jpeg" alt="Nature" style="width:100%">
+      <h3>ROYAL BANDHAVGARH</h3>
+      <p>Bandhavgarh in Madhya Pradesh is a place of legendary significance. The ancient Bandhavgarh Fort is of great importance as it is believed to have been gifted by Lord Rama to his younger brother Lakshmana to keep a watch on Lanka. Therefore this fort is named Bandhavgarh as "Bandhav" means brother and "Garh" means fort
+
+Bandhavgarh dates back to 2000 years ago and you will find several man made caves with inscriptions and rock paintings. </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="parsili.jpeg" alt="Mountains" style="width:100%">
+      <h3>TRANQUIL PARSILI</h3>
+      <p>Away from all the hustle bustle, in the midst of scenic nature, lies the serene town of Parsili. The beautiful Banas river flowing alongside. One of the most stunning highlights of this place is the soft and moist sand bed which stretches across 4 km. Trekking barefoot on this natural carpet is an experience so calming, it will stay with you forever.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="ujjain.jpeg" alt="Bear" style="width:100%">
+  <h3>ANCIENT CITY UJJAIN</h3>
+  <p>Pench Tiger Reserve comprises the Indira Priyadarshini Pench National Park and the Pench Mowgli Sanctuary. It is named after the Pench river that flows through it.
+
+Rudyard Kipling's Mowgli's adventure and his battle with the furious Sher Khan is based on this very landscape in Madhya Pradesh. The places described in the 'The Jungle Book' are the locations marked at Alikatta village and the Seeonee hills. This is the reason, Pench Tiger Reserve is also popularly known as 'Land of The Jungle Book'.</p>
+  <p>A magnificent expanse in Madhya Pradesh, Pench Tiger Reserve, though is a tiger territory but it is also shelters dense population chetal, followed by leopard, sambhar, gaur (Indian bison), chousingha, chinkara, barking deer, small Indian civet, and porcupine and migratory birds such as Malabar pied hornbill, Indian pitta and osprey .</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

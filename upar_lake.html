@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+ 
+}
+     hr {
+        height: 5px;
+      }
+	td{
+		color: white;
+	}
+	h2{
+		color: #ff4d4d;
+	}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>UPAR LAKE</h1>
+<hr color="#ff4d4d" width="100%">
+<table>
+		<tr><td><img src="up1.jpg"</td><td bgcolor="#cc0000" width="50%" style=font-size:22px style="color:white"> <ul>
+		<li>Bhojtal, formerly known as Upper Lake
+		<li>large lake which lies on the western side of the capital city of Madhya Pradesh
+		<li>The evolution of temple architecture is seen in the gupta temple in the stupa premises that were built in 5th century
+		<li>Bada talaab, along with the nearby Chhota Talaab, meaning small lake in Hindi, constitute Bhoj Wetland, which is now a Ramsar site
+
+		</table>
+
+<div class="content">
+   <h2>ABOUT</h2>
+   <hr>
+  <img src="up.jpg" alt="Bear" style="width:100%">
+	<p>According to the local folklore, Bhojtal is said to have been built by the Paramara Raja Bhoj during his tenure as a king of Malwa (1005–1055). He is also said to have established the city of Bhopal (also named after him, then as Bhojpal) to secure the eastern frontier of his kingdom. There is a legend why they built the lake. Once king Bhoj suffered from skin disease and all Vaidyas (Doctor in English) failed to cure him. Then, one day a saint told the king to build a tank to combine 365 tributaries and then have a bath in it to wipe out the skin disease. Bhoj called upon his engineers to build up a huge tank. They spotted a place near river Betwa, which was 32 km away from Bhopal. It was found that it has only 359 tributaries. A Gond Commander Kalia fulfilled this shortage. He then gave the address of an invisible river. After merging the tributaries of this river the number 365 was completed.</p>
+	<p>The lake was created by constructing an earthen dam across the Kolans River. An eleven gate dam called the Bhadbhada dam was constructed at Bhadbhada in 1965 at the southeast corner of the Lake, and now controls the outflow to the river Kaliasote.</p>
+	</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

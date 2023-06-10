@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+ 
+}
+     hr {
+        height: 5px;
+      }
+	td{
+		color: white;
+	}
+	h2{
+		color: #ff4d4d;
+	}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>BEAUTY OF CHANDERI</h1>
+<hr color="#ff4d4d" width="100%">
+<table>
+		<tr><td><img src="ch.jpg"</td><td bgcolor="#cc0000" width="50%" style=font-size:22px style="color:white"> <ul>
+		<li>Home to the exquisite chanderi saris
+		<li>The only jama masjid in india without minars is found here
+		<li>According to legend, mahabharata's shishupal once ruled this town
+		<li>Major centre of Jain culture
+		<li>Chanderi is known to have had 1200 baolis in the past
+		</ul></td></tr>
+	</table>
+
+<div class="content">
+   <h2>ABOUT</h2>
+   <hr>
+  <img src="ch1.jpg" alt="Bear" style="width:100%">
+
+	<p>Chanderi is a small 11th century town located in northern part of Madhya Pradesh. It is known for its quaint forts, hills and elegant hand-woven Chanderi sarees. This six yard of piece is adorned around the globe for the artistry behind their creation. There is a variety of weaves you will find here, from Chanderi cotton-silk to pure Chanderi silk, and every weave is exemplary in its self.</p>
+	<p>The town will not only leave you spellbound with its weaving industry but also with its regal radiance! There is a rich history remains in its heritage sites of Chanderi Fort,  Badal Mahal, and Koshak Mahal which you can admire on a visit to this quint city.</p>
+	<p>The Chanderi Fort dates back to the Mughal times, ruled by differed monarchs. It can be approached through three very famous gates. The main gate is known as 'Khooni Darwaza' because the criminals from battlements were thrown from the above. Another gate is 'Hawa Pur' which is the third and highest gate of the Fort. The southwest- side of the fort has a gate called the 'Kati-Ghati'.  Another place to visit in Chanderi is the Badal Mahal Gate is a singular structure of a gate that doesn't lead to any palace. It is situated at the Southern end, facing the Jama Masjid, it offers a striking view of the fort above. The Gate has a height of 100 feet and the structure features intricate carvings and remarkable motifs. </p>  
+	</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>NATURE</h1>
+<hr>
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="panchmarhi.jpeg" alt="Mountains" style="width:100%">
+      <h3>SERENE PANCHMARHI</h3>
+      <p>Popularly known as the 'Satpura ki Rani' (Queen of Satpura) is the glorious land called Pachmarhi in the second largest state of India, Madhya Pradesh. Tucked away 1,607m above sea level, Pachmarhi is a perfect platter for all the travel junkies that offer scenic landscapes, gushing waterfalls, pristine pools and lush green forests.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="hanuwantiya.jpeg" alt="Lights" style="width:100%">
+      <h3>THRILLING HANUWANTIYA</h3>
+      <p>Madhya Dweep is a group of islands in the Indira Sagar dam including Sailani islands (which is another adventure tourism destination and is under development) and Hanuwantiya which is by the bank of Indira Sagar dam. Along with abundant natural beauty, it offers a wide array of water sports during "Jal Mahostav".</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="kanha.jpeg" alt="Nature" style="width:100%">
+      <h3>DELIGHTFUL KANHA</h3>
+      <p>The largest national park in Madhya Pradesh, Kanha National Park, is located in the Maikal Hills of the Satpuras spreading over two districts - Mandla and Balaghat. With a 940 sq. km expansion, it is considered to be one of the best administered and managed wildlife National parks in India. </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="tamia.jpeg" alt="Mountains" style="width:100%">
+      <h3>Pristine Tamia</h3>
+      <p>One of the hidden treasures of Madhya Pradesh, Tamia is a picturesque forest destination that offers scenic and breath-taking views of dense forests and mountains. Untouched and unexplored, Tamia is the perfect location to disconnect from the world and experience absolute tranquillity.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="sailani1.jpeg" alt="Bear" style="width:100%">
+  <h3>SCENIC SAILANI</h3>
+  <p>Situated on the bank of River Narmada and Omkareshwar Dam in Khandwa district, Sailani Island near Omkareshwar Jyotirlinga shrine offers a tranquil break to visitors with accommodations at the Sailani Island Resort. The place is spread over 5-acres of land and is surrounded by the holy Narmada water on three sides.</p>
+  <p>The secluded island is away from all the hustle and bustle of the city and is packed with natural beauty and water activities. Apart from spending some quality and peaceful time at the lavish resort, one can always try out exciting water-based recreational activities such as speed boating, skurfing, paddle boating and cruising available at the destination.</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

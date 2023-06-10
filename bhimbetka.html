@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+ 
+}
+     hr {
+        height: 5px;
+      }
+	td{
+		color: white;
+	}
+	h2{
+		color: #ff4d4d;
+	}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>AMAZING BHETKA</h1>
+<hr color="#ff4d4d" width="100%">
+<table>
+		<tr><td><img src="bhim.jpg"</td><td bgcolor="#cc0000" width="50%" style=font-size:22px style="color:white"> <ul>
+		<li>Legend says Bhimbetka is derived from 'bhimbaithka' meaning 'the sitting place of Bhima', from Mahabharata
+		<li>Out of the 760 rock shelters, 500 are adorned with paintings
+		<li>The painting of an enormous red bison attacking a man is visible only when the sun is just right
+		<li>Thousands years old art gallery hides amongst the massive, black boulders of Bhimbetka
+		</ul></td></tr>
+	</table>
+
+<div class="content">
+   <h2>ABOUT</h2>
+   <hr>
+  <img src="bhim_big.jpg" alt="Bear" style="width:100%">
+
+   <p>Cave paintings dating back to approximately 30,000 years. Rock shelters that were home to humans, millennia ago. And a rich flora and fauna surrounding these, indeed, make Bhimbetka a gift to us from our earliest ancestors. The Bhimbetka Rock Shelter has the oldest-known rock art in India, as well as is one of the largest prehistoric complexes to be seen. </p>
+  <p>An archaeological treasure, Bhimbetka has around 243 rock shelters and have earned the honour of UNESCO World Heritage Site. The paintings found in the rock shelters here have a striking resemblance to the ones discovered in Kakadu National Park in Australia; to the cave paintings of Bushmen in Kalahari Desert and Upper Palaeolithic Lascaux cave paintings in France.</p>
+  <p>A walkthrough these ancient naturally carved rocks surrounded by dense forests of Bhimbetka will bring alive child-like wonder in you. About 47 min drive from Bhimbetka will also take you on a tour to Bhojpur. Pay a visit to the enigmatic temple dedicated to Lord Shiva. It houses around 7.5 feet high shivlingam in its sanctum. It is believed that the construction of the temple was commenced during the reign of Paramara King Bhoja.</p>
+  
+	</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

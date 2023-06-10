@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+ 
+}
+     hr {
+        height: 5px;
+      }
+	td{
+		color: white;
+	}
+	h2{
+		color: #ff4d4d;
+	}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>BHOJPUR TEMPLE</h1>
+<hr color="#ff4d4d" width="100%">
+<table>
+		<tr><td><img src="bh.jpeg"</td><td bgcolor="#cc0000" width="50%" style=font-size:22px style="color:white"> <ul>
+		<li>constructed by the 11th-century Paramara king Bhoja
+		<li>Ancient monumental relief sculpture of Parshvanatha in his incarnation.
+		<li>Tradition also attributes to him the establishment of Bhojpur and the construction of now-breached dams in the area.
+		<li>Major centre of Jain culture
+		<li>The site is also referred to as Visnupadagiri, as in inscriptions at the site
+		</ul></td></tr>
+	</table>
+
+<div class="content">
+   <h2>ABOUT</h2>
+   <hr>
+  <img src="bh1.jpeg" alt="Bear" style="width:100%">
+	<p>The temple originally stood on the banks of a reservoir 18.5 long and 7.5 miles wide.[7] This reservoir was formed through construction of 3 earth-and-stone dams during Bhoja's reign. The first dam, built on Betwa River, trapped the river waters in a depression surrounded by hills. A second dam was constructed in a gap between the hills, near present-day Mendua village. A third dam, located in present-day Bhopal, diverted more water from the smaller Kaliasot river into the Betwa dam reservoir. This man-made reservoir existed until 15th century, when Hoshang Shah emptied the lake by breaching two of the dams.</p>
+	</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

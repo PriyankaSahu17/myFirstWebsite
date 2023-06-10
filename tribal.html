@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+ 
+}
+     hr {
+        height: 5px;
+      }
+	td{
+		color: white;
+	}
+	h2{
+		color: #ff4d4d;
+	}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>TRIBAL MESEAUM OF BHOPAL</h1>
+<hr color="#ff4d4d" width="100%">
+<table>
+		<tr><td><img src="tb.jpeg"></td><td bgcolor="#cc0000" width="50%" style=font-size:22px style="color:white"> <ul>
+		<li>'Choumasa' Magazine editions, an in house magazine of the museum with detailed information on the tribal lifestyle.
+		<li>he folklores, lifestyle, rituals and social customs of all seven indigenous tribes of MP
+		<li>lives of the region's seven tribes are being celebrated here via their craft.
+		<li>Entering straight into the lifestyles of the tribes of Madhya Pradesh.
+		</table>
+
+<div class="content">
+   <h2>ABOUT</h2>
+   <hr>
+	  <img src="tb1.jpg" alt="Bear" style="width:100%">
+	<p>his museum is literally a home that is well preserving the state's rich art and culture bestowed in various tribes. The folklores, lifestyle, rituals and social customs of all seven indigenous tribes of MP?the Gonds, Bhils, Bharias, Sahariya, Korku, Kol, and Baiga are showcased in the museum through a repository of traditional art. In fact, lives of the region's seven tribes are being celebrated here via their craft.
+         The moment you step into the galleries inside the museum, you get a strong feel about not just witnessing the  galleries but a strong feeling of entering straight into the lifestyles of the tribes of Madhya Pradesh.</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

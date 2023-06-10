@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+ 
+}
+     hr {
+        height: 5px;
+      }
+	td{
+		color: white;
+	}
+	h2{
+		color: #ff4d4d;
+	}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>SHAUKAT MAHAL</h1>
+<hr color="#ff4d4d" width="100%">
+<table>
+		<tr><td><img src="sh2.jpg"</td><td bgcolor="#cc0000" width="50%" style=font-size:22px style="color:white"> <ul>
+		<li>it is one of the most unique architectural marvels of Bhopal
+		<li>It is an integral part of the famous royal quadrangle of Bhopal around the Iqbal Maidan,
+		<li>Built with a mix of Indian-Islamic and European Styles
+		<li> the roof of the building is adorned with a series of complicated triangular-shaped arches and the exteriors have beautiful patterns, showing artistic brilliance
+		</table>
+
+<div class="content">
+   <h2>ABOUT</h2>
+   <hr>
+  <img src="sh.jpg" alt="Bear" style="width:100%">
+	<p> the roof of the building is adorned with a series of complicated triangular-shaped arches and the exteriors have beautiful patterns, showing artistic brilliance</p>
+	<p>Built with a mix of Indian-Islamic and European Styles, the roof of the building is adorned with a series of complicated triangular-shaped arches and the exteriors have beautiful patterns, showing artistic brilliance. Shaukat Mahal is towered by the grand Sadar Manzil, which is believed to have served as the hall of public audience, back in the era of kings. Surrounded by lush green gardens on all sides, the red-colored hall has been built in a grandiose and has an ostentatious appearance.</p>
+	</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

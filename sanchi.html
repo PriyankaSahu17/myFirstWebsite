@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+ 
+}
+     hr {
+        height: 5px;
+      }
+	td{
+		color: white;
+	}
+	h2{
+		color: #ff4d4d;
+	}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>Scared SANCHI</h1>
+<hr color="#ff4d4d" width="100%">
+<table>
+		<tr><td><img src="ssa.jpg"</td><td bgcolor="#cc0000" width="50%" style=font-size:22px style="color:white"> <ul>
+		<li>Unesco world heritage site 'Mahastupa' (great stupa) stands here
+		<li>Home to the gupta temple, one of the earliest examples of temple architecture
+		<li>The evolution of temple architecture is seen in the gupta temple in the stupa premises that were built in 5th century
+		<li>Houses 4 gateways that showcase buddha's life through intricate carvings
+		<li>The Lion Capital of Ashokan Pillar can be found at The Archeological Museum
+
+		</table>
+
+<div class="content">
+   <h2>ABOUT</h2>
+   <hr>
+  <img src="sa1.jpg" alt="Bear" style="width:100%">
+	<p>The town of Sanchi is synonymous with Buddhist Stupas - hemispherical structures typically containing relics of the Buddha or his followers. The Stupas of Sanchi were constructed on the orders of Emperor Ashoka to preserve and spread the Buddhist philosophy. Sanchi has been protecting these beautiful and sacred architectural wonders, just the way these wonders have been safeguarding ancient history and art of the Mauryan period.</p>
+	<p>The numerous stupas, temples, monasteries and an Ashokan pillar have been the focus of interest and awe for global audiences as well. In fact, UNESCO has given the status of 'World Heritage Site' to the Mahastupa.</p>
+	<p>A visit to Sanchi will bring alive the awe you felt as a child as you listened to the tales of Ashoka. There are several other hidden buddha sites situated within the radius of 30km of  Sanchi that offers significant Buddha teachings. While visiting the Sanchi Stupa you can also see the  Buddha Jambudweep a 17-acre theme park situated right in front of the Archaeological Survey of India (ASI) Sanchi Museum dipecting  life and preaching of Gautam Buddha and Emperor Ashoka.</p>
+	</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

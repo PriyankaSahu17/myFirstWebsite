@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+ 
+}
+     hr {
+        height: 5px;
+      }
+	td{
+		color: white;
+	}
+	h2{
+		color: #ff4d4d;
+	}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>TAJ UL MASJID</h1>
+<hr color="#ff4d4d" width="100%">
+<table>
+		<tr><td><img src="taj.jpg"</td><td bgcolor="#cc0000" width="50%" style=font-size:22px style="color:white"> <ul>
+		<li>Taj-ul-Masjid or 'Crown among Mosques' is the largest mosque in the country.
+		<li>The building of this mosque was started by Nawab Shah Jahan Begum
+		<li>continued to be built by her daughter Sultan Jahan Begum, till her lifetime.
+		<li>After decades of dormancy, the construction was restarted in 1971 and finished in 1985. 
+		<li>The most impressive features of this mosque are its main hall with inter-arched roof, broad facade, spacious courtyard, and smooth marble flooring.
+
+		</table>
+
+<div class="content">
+   <h2>ABOUT</h2>
+   <hr>
+  <img src="taj1.jpg" alt="Bear" style="width:100%">
+	<p>The construction of the Taj-ul-Masajid was started by Nawab Shah Jahan Begum of Bhopal, in the newly-built walled suburb of Shahjahanabad. The exact year when construction was started is unclear; Sharma estimates it to be 1871. After Shah Jahan Begum died in 1901, the mosque continued to be built by her daughter Sultan Jahan Begum, till the end of her lifetime. The structure was planned in the midst of three water bodies, namely: Munshi Hussain Talab; Noor Mahal Talab; and Motia Talab.</p>
+
+<p>The mosque was not completed due to a lack of funds, and construction did not resume until 1971. The entrance was renovated with motifs from 13th century Syrian mosques donated by the Emir of Kuwait in memory of his late wife.</p>
+	</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

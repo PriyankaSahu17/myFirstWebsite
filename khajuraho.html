@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+ 
+}
+     hr {
+        height: 5px;
+      }
+	td{
+		color: white;
+	}
+	h2{
+		color: #ff4d4d;
+	}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>GRACEFUL KHAJURAHO</h1>
+<hr color="#ff4d4d" width="100%">
+<table>
+		<tr><td><img src="kh1.jpg"</td><td bgcolor="#cc0000" width="50%" style=font-size:22px style="color:white"> <ul>
+		<li>The common date palm - khajura - has given Khajuraho its name
+		<li>The famous erotic sculptures of khajuraho account for only 10% of all sculptures
+		<li>The Khajuraho temples belong to the hindu as well as the jain religion
+		<li>Of the original 85 temples, only 20 have survived destruction and ravages of time
+		<li>Khajuraho temples were rediscovered in the 1850s after being neglected for centuries</ul></td></tr>
+	</table>
+
+<div class="content">
+   <h2>ABOUT</h2>
+   <hr>
+  <img src="kh.jpg" alt="Bear" style="width:100%">
+	<p>Khajuraho is an ancient city known for its magnificent temples and intricate sculptures. The city is located in the Chattarpur district of Madhya Pradesh and holds spellbinding historical tales and architectural grandeurs.. As per the historical archives, the Khajuraho temple site had 85 temples during the 12th century spread over 20 square kilometres. Among these, only 25 temples have survived the course of time, spread over six square kilometres. </p>
+	<p>Built in the mediaeval century by the Chandela Dynasty, the UNESCO site of 'Khajuraho Group of Monuments' is famous for its Nagara-Style architecture and graceful sculptures of nayikas (Hindu Mythological female protagonists) and deities. The splendour of the intricate statues is one of the reasons that makes it a popular site to visit among tourists. Built between 950-1050 AD by the Chandela Dynasty, these temples represent various forms of meditation, spiritual teachings and relationships through stimulating art. The temples are famous for their craftsmanship that consist of splendid demonstrations of fine sculptures and exceptional architectural skill, making them one of the most stunning UNESCO World Heritage Sites in India.</p>
+	</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

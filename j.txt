@@ -1,0 +1,74 @@
+<head>
+    <title>gallery</title>
+    <style>
+        body {
+            background-color: rgb(65, 6, 16);
+            font-family: sans-serif
+        }
+
+        .gallery {
+            margin: 10px 20px;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            padding: 5px;
+            filter: grayscale(40%);
+            transition: 1s;
+        }
+
+        .gallery img:hover {
+            filter: contrast();
+            transform: scale(1.1);
+        }
+    </style>
+
+</head>
+
+<body>
+    <center>
+        <h1 style="font-size: 40px; color: white;"><u>Hotel's View</u></h1>
+    </center>
+
+    <div class="gallery">
+        <a href="https://pix8.agoda.net/hotelImages/439/43937/43937_17040917130052251261.jpg?ca=6&ce=1&s=1024x768"><img
+                src="https://pix8.agoda.net/hotelImages/439/43937/43937_17040917130052251261.jpg?ca=6&ce=1&s=1024x768"></a>
+        <a href="https://pix8.agoda.net/hotelImages/439/43937/43937_17040917010052250921.jpg?ca=6&ce=1&s=1024x768"><img
+                src="https://pix8.agoda.net/hotelImages/439/43937/43937_17040917010052250921.jpg?ca=6&ce=1&s=1024x768"></a>
+        <a href="https://pix8.agoda.net/hotelImages/439/43937/43937_17040916290052249780.jpg?ca=6&ce=1&s=1024x768"><img
+                src="https://pix8.agoda.net/hotelImages/439/43937/43937_17040916290052249780.jpg?ca=6&ce=1&s=1024x768"></a>
+        <a href="https://pix8.agoda.net/hotelImages/439/43937/43937_17041010580052266562.jpg?ca=6&ce=1&s=1024x768"><img
+                src="https://pix8.agoda.net/hotelImages/439/43937/43937_17041010580052266562.jpg?ca=6&ce=1&s=1024x768"></a>
+        <a
+            href="https://q-xx.bstatic.com/xdata/images/hotel/840x460/139161129.jpg?k=c3f48c5e8bd1bd462babb17eb654ae98183a067fce4ae513faee2e9f031e02c6&o="><img
+                src="https://q-xx.bstatic.com/xdata/images/hotel/840x460/139161129.jpg?k=c3f48c5e8bd1bd462babb17eb654ae98183a067fce4ae513faee2e9f031e02c6&o="></a>
+        <a
+            href="https://q-xx.bstatic.com/xdata/images/hotel/840x460/139157794.jpg?k=b73d03709b1c6dce9c9fbe459b875b6245791a057b101ac2babf7824d2d24b56&o="><img
+                src="https://q-xx.bstatic.com/xdata/images/hotel/840x460/139157794.jpg?k=b73d03709b1c6dce9c9fbe459b875b6245791a057b101ac2babf7824d2d24b56&o="></a>
+        <a href="https://pix8.agoda.net/hotelImages/439/43937/43937_17040917500052252596.jpg?ca=6&ce=1&s=1024x768"><img
+                src="https://pix8.agoda.net/hotelImages/439/43937/43937_17040917500052252596.jpg?ca=6&ce=1&s=1024x768"></a>
+        <a
+            href="https://q-xx.bstatic.com/xdata/images/hotel/840x460/139157685.jpg?k=382f16b0a718276eb4d7e9c40d53a8e90d73eb914e0963a650867a08d40b0945&o="><img
+                src="https://q-xx.bstatic.com/xdata/images/hotel/840x460/139157685.jpg?k=382f16b0a718276eb4d7e9c40d53a8e90d73eb914e0963a650867a08d40b0945&o="></a>
+        <a href="https://pix8.agoda.net/hotelImages/439/43937/43937_17040917500052252597.jpg?ca=6&ce=1&s=1024x768"><img
+                src="https://pix8.agoda.net/hotelImages/439/43937/43937_17040917500052252597.jpg?ca=6&ce=1&s=1024x768"></a>
+        <a href="https://pix8.agoda.net/hotelImages/439/43937/43937_17041010580052266567.jpg?ca=6&ce=1&s=1024x768"><img
+                src="https://pix8.agoda.net/hotelImages/439/43937/43937_17041010580052266567.jpg?ca=6&ce=1&s=1024x768"></a>
+        <a href="https://pix8.agoda.net/hotelImages/439/43937/43937_17041011030052266746.jpg?ca=6&ce=1&s=1024x768"><img
+                src="https://pix8.agoda.net/hotelImages/439/43937/43937_17041011030052266746.jpg?ca=6&ce=1&s=1024x768"></a>
+        <a href="https://pix8.agoda.net/hotelImages/439/43937/43937_17041010570052266556.jpg?ca=6&ce=1&s=1024x768"><img
+                src="https://pix8.agoda.net/hotelImages/439/43937/43937_17041010570052266556.jpg?ca=6&ce=1&s=1024x768"></a>
+        <a href="https://pix8.agoda.net/hotelImages/439/43937/43937_17041010570052266560.jpg?ca=6&ce=1&s=1024x768"><img
+                src="https://pix8.agoda.net/hotelImages/439/43937/43937_17041010570052266560.jpg?ca=6&ce=1&s=1024x768"></a>
+        <a href="https://pix8.agoda.net/hotelImages/439/43937/43937_17041010580052266568.jpg?ca=6&ce=1&s=1024x768"><img
+                src="https://pix8.agoda.net/hotelImages/439/43937/43937_17041010580052266568.jpg?ca=6&ce=1&s=1024x768"></a>
+        <a
+            href="https://q-xx.bstatic.com/xdata/images/hotel/840x460/162842405.jpg?k=6f33159c5df2f5f80bc8abbed54754e60ccea9bb4743835f34d226c0f1b585a1&o="><img
+                src="https://q-xx.bstatic.com/xdata/images/hotel/840x460/162842405.jpg?k=6f33159c5df2f5f80bc8abbed54754e60ccea9bb4743835f34d226c0f1b585a1&o="></a>
+       
+
+    </div>
+</body>
+
+</html>
